@@ -55,7 +55,7 @@ const App = () => {
           </a>
           <button
             id="new-quote"
-            className="btn btn-secondary bg-gray-500 text-white py-2 px-4 rounded"
+            className="btn btn-secondary bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 text-white py-2 px-4 rounded"
             onClick={fetchQuote}
           >
             New Quote
